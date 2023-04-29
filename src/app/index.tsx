@@ -1,10 +1,10 @@
 import { type FC } from "react"
-import { Button } from "shared/ui"
+import { Tag } from "shared/ui"
 import "./index.scss"
 
 const App: FC = () => {
     return (
-        <Button>Посетите прямо сейчас</Button>
+        <Tag>Красная площадь</Tag>
     )
 }
 
