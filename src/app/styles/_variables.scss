@@ -1,3 +1,11 @@
 :root {
-    --color-red: red;
+    --colors-ui-base: #219ebc;
+    --colors-text: #18232E;
+    --colors-secondary-text: #979DA5;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
