@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--colors-ui-base);
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 20px;
+
+    &_theme {
+        &_outline {
+            color: var(--colors-ui-base);
+            border: 1px solid var(--colors-ui-base);
+            background-color: #ffffff;
+        }
+    }
+}
