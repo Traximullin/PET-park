@@ -1,0 +1,12 @@
+.menu {
+
+    &__list {
+        display: flex;
+        gap: 36px;
+    }
+
+    &__item {
+        user-select: none;
+        color: var(--colors-text);
+    }
+}
