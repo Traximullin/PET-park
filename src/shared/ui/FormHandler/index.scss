@@ -1,0 +1,17 @@
+.form-handler {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+
+    &__title, &__error {
+        font-size: 12px;
+    }
+
+    &__title {
+        color: var(--colors-secondary-text);
+    }
+
+    &__error {
+        color: var(--colors-ui-base);
+    }
+}

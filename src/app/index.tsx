@@ -1,11 +1,18 @@
 import { type FC } from "react"
-import { Header } from "shared/ui"
+import { Form, FormHandler, Input } from "shared/ui"
 import "./index.scss"
 
 const App: FC = () => {
 
     return (
-        <Header/>
+        <Form>
+            <FormHandler
+                required
+                title="Имя"
+            >
+                <Input />
+            </FormHandler>
+        </Form>
     )
 }
 
