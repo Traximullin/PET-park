@@ -1,5 +1,5 @@
 import { type FC } from "react"
-import { Form, FormHandler, Input } from "shared/ui"
+import { Form, FormHandler, Input, Radio } from "shared/ui"
 import Checkbox from "shared/ui/Checkbox"
 import "./index.scss"
 
@@ -14,6 +14,7 @@ const App: FC = () => {
                 <Input />
             </FormHandler>
             <Checkbox/>
+            <Radio />
         </Form>
     )
 }
