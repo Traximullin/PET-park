@@ -1,6 +1,6 @@
 import { type FC } from "react"
 import { Space } from "shared/layouts"
-import { Box, Calendar } from "shared/ui"
+import { Box, Calendar, Tag } from "shared/ui"
 import "./index.scss"
 
 const App: FC = () => {
@@ -11,7 +11,7 @@ const App: FC = () => {
                 <Calendar />
             </Box>
             <Box>
-                <Calendar />
+                <Tag name="test">12:00</Tag>
             </Box>
             <Box>
                 <Calendar />
