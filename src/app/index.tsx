@@ -1,13 +1,22 @@
 import { type FC } from "react"
+import { Space } from "shared/layouts"
 import { Box, Calendar } from "shared/ui"
 import "./index.scss"
 
 const App: FC = () => {
 
     return (
-        <Box>
-            <Calendar />
-        </Box>
+        <Space gap="12px">
+            <Box>
+                <Calendar />
+            </Box>
+            <Box>
+                <Calendar />
+            </Box>
+            <Box>
+                <Calendar />
+            </Box>
+        </Space>
     )
 }
 
