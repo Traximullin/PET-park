@@ -1,11 +1,13 @@
 import { type FC } from "react"
-import { Calendar } from "shared/ui"
+import { Box, Calendar } from "shared/ui"
 import "./index.scss"
 
 const App: FC = () => {
 
     return (
-        <Calendar />
+        <Box>
+            <Calendar />
+        </Box>
     )
 }
 
