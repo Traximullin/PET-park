@@ -1,11 +1,11 @@
 import { type FC } from "react"
-import { BaseLayout, Space } from "shared/layouts"
+import { BaseLayout, Grid } from "shared/layouts"
 import { Box, Calendar, Tag, Text } from "shared/ui"
 
 const OrganizationEventPage: FC = () => {
     return (
         <BaseLayout>
-            <Space gap="14px">
+            <Grid gap="14px" gridTemplateColumns="1fr 0.5fr 1fr">
                 <Box>
                     <Text.Title>
                         Дата мероприятия
@@ -23,7 +23,7 @@ const OrganizationEventPage: FC = () => {
                         Тип праздника
                     </Text.Title>
                 </Box>
-            </Space>
+            </Grid>
         </BaseLayout>
     )
 }
