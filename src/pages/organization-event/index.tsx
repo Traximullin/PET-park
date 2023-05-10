@@ -1,6 +1,6 @@
 import { type FC } from "react"
-import { BaseLayout, Grid } from "shared/layouts"
-import { Box, Calendar, Tag, Text } from "shared/ui"
+import { BaseLayout, Grid, Space } from "shared/layouts"
+import { Box, Calendar, DoteNumber, Tag, Text } from "shared/ui"
 
 const OrganizationEventPage: FC = () => {
     return (
@@ -24,6 +24,15 @@ const OrganizationEventPage: FC = () => {
                     </Text.Title>
                 </Box>
             </Grid>
+            <Box>
+                <Text.Title>
+                    Количество человек
+                </Text.Title>
+                <Space gap="5px">
+                    <DoteNumber name="test">1</DoteNumber>
+                    <DoteNumber name="test">2</DoteNumber>
+                </Space>
+            </Box>
         </BaseLayout>
     )
 }
