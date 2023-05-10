@@ -29,7 +29,8 @@ const OrganizationEventPage: FC = () => {
                     Количество человек
                 </Text.Title>
                 <Space gap="5px">
-
+                    <DoteNumber name="test">1</DoteNumber>
+                    <DoteNumber name="test">2</DoteNumber>
                 </Space>
             </Box>
         </BaseLayout>
