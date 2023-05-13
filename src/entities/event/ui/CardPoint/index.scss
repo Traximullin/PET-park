@@ -1,0 +1,48 @@
+
+.card-point {
+    overflow: hidden;
+    max-height: 200px;
+    position: relative;
+
+    &__image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__mark {
+        z-index: 2;
+        width: 32px;
+        height: 32px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        &_active { 
+            background-color: var(--colors-ui-base);
+        }
+    }
+
+    &__title {
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+        z-index: 2;
+
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+    }
+
+    &__darker {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #161924 100%);
+        width: 100%;
+        height: 130px;
+        z-index: 1;
+    }
+}
