@@ -1,7 +1,7 @@
 import { CardPoint } from "entities/event/ui"
 import { type FC } from "react"
 import { BaseLayout, Grid, Space } from "shared/layouts"
-import { Box, Calendar, Card, DoteNumber, Tag, Text } from "shared/ui"
+import { Box, Calendar, Card, CardChecked, DoteNumber, Tag, Text } from "shared/ui"
 
 const OrganizationEventPage: FC = () => {
     return (
