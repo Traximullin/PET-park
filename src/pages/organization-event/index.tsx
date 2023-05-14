@@ -1,4 +1,4 @@
-import { CardPoint } from "entities/event/ui"
+import { CardCatering, CardPoint } from "entities/event/ui"
 import { type FC } from "react"
 import { BaseLayout, Grid, Space } from "shared/layouts"
 import { Box, Calendar, Card, CardChecked, DoteNumber, Tag, Text } from "shared/ui"
@@ -38,6 +38,13 @@ const OrganizationEventPage: FC = () => {
                 <CardPoint title="Парк 50 летие СССР"/>
                 <CardPoint title="Парк 50 летие СССР"/>
                 <CardPoint title="Парк 50 летие СССР"/>
+            </Grid>
+            <Grid gridTemplateColumns="repeat(5,1fr)" gap="25px">
+                <CardCatering />
+                <CardCatering />
+                <CardCatering />
+                <CardCatering />
+                <CardCatering />
             </Grid>
         </BaseLayout>
     )
